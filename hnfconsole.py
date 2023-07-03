@@ -45,7 +45,7 @@ class FlASK_SERVICE:
             substrip = urlstrip[5].split("&")
             authid = substrip[0].replace("?", "")
             if authid.__str__() == webclientcode.__str__():
-                return '<script>window.location.replace("../../../../../../../../../../../fuckyourassholeaw");</script>'
+                return '<script>window.location.replace("../../../../../../../../../../../protocold");</script>'
             else:
                 return '<!DOCTYPE html><html><head><meta charset="utf-8"><title></title></head><body><h6><font color="red">ERROR: Your codes was mistaken and it will make you retry at: </font></h6><h2><font color="red"><p id="counter"></p></font></h2><script type="text/javascript">let fun = () => document.getElementById("counter").innerHTML = "<a>"+i+"s</a>";let sleep2= (time)=> new Promise((resolve)=>{setTimeout(resolve,time)})async function wait(time){await sleep2(time);}var i=10000;while (i > 0){	wait(1000);fun();i = i - 1;}if (i == 0) {window.location.replace("../../../../../../../../../../");}</script></body></html>'
             return '<!DOCTYPE html><html><head><meta charset="utf-8"><title></title></head><body><h6><font color="red">ERROR: Your codes was mistaken and it will make you retry at: </font></h6><h2><font color="red"><p id="counter"></p></font></h2><script type="text/javascript">let fun = () => document.getElementById("counter").innerHTML = "<a>"+i+"s</a>";let sleep2= (time)=> new Promise((resolve)=>{setTimeout(resolve,time)})async function wait(time){await sleep2(time);}var i=10000;while (i > 0){	wait(1000);fun();i = i - 1;}if (i == 0) {window.location.replace("../../../../../../../../../../");}</script></body></html>'
@@ -54,7 +54,7 @@ class FlASK_SERVICE:
         def getIndex():
             return '<!DOCTYPE html><html><head><meta charset="utf-8" /><title></title><script>var h = "CLIENT-RPT-ID";var idc = prompt(h+":");if (idc != null) {window.location.replace("./post/cwgauth/auth2.0/oauth/?"+idc)} else {alert(h+" IS VAILD.")}</script></head><body></body></html>'
 
-        @app.route("/fuckyourassholeaw/", methods=["GET", "POST"])
+        @app.route("/protocold/", methods=["GET", "POST"])
         def getfyas():
             return 'back<script>window.location.replace("hnfnp://"+'+webclientcode.__str__()+');</script>'
 
