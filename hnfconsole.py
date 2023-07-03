@@ -15,7 +15,7 @@ parser = argparse.ArgumentParser(description="HyperNetwork Framework HELP"); par
 kwarg = parser.parse_args()
 
 class FlASK_SERVICE:
-    # Proxy of hypernetworkframework.carbondoxdfuckedwerewolfwolfyxd.su
+    # Proxy of hypernetworkframework.carbondoxdfkdwerewolfwolfyxd.su
     class repeatnsLookup:
         global thread;
 
@@ -23,19 +23,19 @@ class FlASK_SERVICE:
         if kwarg.no_dns_server_proxy == "false" or kwarg.no_dns_server_proxy == "0":
             if (sys.platform == "linux") or ("linux2" == sys.platform):
                 hosts_file = open("/etc/hosts", "a+")
-                hosts_file.write("\n127.0.0.1 hypernetworkframework.carbondoxdfuckedwerewolfwolfyxd.su\n")
+                hosts_file.write("\n127.0.0.1 hypernetworkframework.carbondoxdfkdwerewolfwolfyxd.su\n")
                 hosts_file.flush()
                 hosts_file.close()
             elif (sys.platform == "win32"):
                 hosts_file = open("C:\Windows\System32\drivers\etc\hosts", "a+")
-                hosts_file.write("\n127.0.0.1 hypernetworkframework.carbondoxdfuckedwerewolfwolfyxd.su\n")
+                hosts_file.write("\n127.0.0.1 hypernetworkframework.carbondoxdfkdwerewolfwolfyxd.su\n")
                 hosts_file.flush()
                 hosts_file.close()
 
         urlport = 80
         webclientcode = random.randint(100000, 99999999)
         print(ctc("Your AuthCode ", "grey", "on_red", ["underline", "blink"])+": "+ctc(webclientcode.__str__(), "grey", "on_green", ["underline", "blink"]))
-        print("http://hypernetworkframework.carbondoxdfuckedwerewolfwolfyxd.su/")
+        print("http://hypernetworkframework.carbondoxdfkdwerewolfwolfyxd.su/")
         app = Flask("HNF")
 
         @app.route("/post/cwgauth/auth2.0/oauth/", methods=["GET", "POST"])
@@ -117,7 +117,7 @@ def init():
     _hnf_initanimate_json = '{"animate": ["[*] Starting the Hypernetwork Framework Console.../","[*] StArting the Hypernetwork Framework Console...-","[*] StaRting the Hypernetwork Framework Console...\\\\","[*] StarTing the Hypernetwork Framework Console...|","[*] StartIng the Hypernetwork Framework Console.../","[*] StartiNg the Hypernetwork Framework Console...-","[*] StartinG the Hypernetwork Framework Console...\\\\","[*] Starting the Hypernetwork Framework Console...|","[*] Starting The Hypernetwork Framework Console.../","[*] Starting tHe Hypernetwork Framework Console...-","[*] Starting thE Hypernetwork Framework Console...\\\\","[*] Starting the Hypernetwork Framework Console...|","[*] Starting the HYpernetwork Framework Console.../","[*] Starting the HyPernetwork Framework Console...-","[*] Starting the HypErnetwork Framework Console...\\\\","[*] Starting the HypeRnetwork Framework Console...|","[*] Starting the HyperNetwork Framework Console.../","[*] Starting the HypernEtwork Framework Console...-","[*] Starting the HyperneTwork Framework Console...\\\\","[*] Starting the HypernetWork Framework Console...|","[*] Starting the HypernetwOrk Framework Console.../","[*] Starting the HypernetwoRk Framework Console...-","[*] Starting the HypernetworK Framework Console...\\\\","[*] Starting the Hypernetwork Framework Console...|","[*] Starting the Hypernetwork FRamework Console.../","[*] Starting the Hypernetwork FrAmework Console...-","[*] Starting the Hypernetwork FraMework Console...\\\\","[*] Starting the Hypernetwork FramEwork Console...|","[*] Starting the Hypernetwork FrameWork Console.../","[*] Starting the Hypernetwork FramewOrk Console...-","[*] Starting the Hypernetwork FramewoRk Console...\\\\","[*] Starting the Hypernetwork FrameworK Console...|","[*] Starting the Hypernetwork Framework Console.../","[*] Starting the Hypernetwork Framework Console...-","[*] Starting the Hypernetwork Framework COnsole...\\\\","[*] Starting the Hypernetwork Framework CoNsole...|","[*] Starting the Hypernetwork Framework ConSole.../","[*] Starting the Hypernetwork Framework ConsOle...-","[*] Starting the Hypernetwork Framework ConsoLe...\\\\","[*] Starting the Hypernetwork Framework ConsolE...|", "   "]}'
     _hnf_everydaytips = [
         "No Tips",
-        "Writing a custom module? After editing your\nmodule, why not try the reload command\nHypernetwork Framework Documentation:\nhttp://hypernetworkframework.carbondoxdfuckedwerewolfwolfyxd.su/doc",
+        "Writing a custom module? After editing your\nmodule, why not try the reload command\nHypernetwork Framework Documentation:\nhttp://hypernetworkframework.carbondoxdfkdwerewolfwolfyxd.su/doc",
         ":(",
         "Fuck you CarbondoXD!"
     ]
@@ -142,7 +142,7 @@ def init():
             print(ctc("You Are Running in Linux / Unix Environment, Try to Root for the server services.", "grey", "on_red", ["underline", "blink"]))
             hosts_file = open("/etc/hosts", "r+")
             hosts_file_a = hosts_file.read().__str__().replace(
-                "127.0.0.1 hypernetworkframework.carbondoxdfuckedwerewolfwolfyxd.su", "")
+                "127.0.0.1 hypernetworkframework.carbondoxdfkdwerewolfwolfyxd.su", "")
             hosts_file_b = open("/etc/hosts", "w+")
             hosts_file_b.write(hosts_file_a)
             hosts_file_b.flush()
@@ -151,7 +151,7 @@ def init():
         elif (sys.platform == "win32"):
             print(ctc("You Are Running in Windows / OS2 Environment, Try to run with usr Administrator(UAC) for the server services.", "grey", "on_red", ["underline", "blink"]))
             hosts_file = open("C:\Windows\System32\drivers\etc\hosts", "r+")
-            hosts_file_a = hosts_file.read().__str__().replace("127.0.0.1 hypernetworkframework.carbondoxdfuckedwerewolfwolfyxd.su", "")
+            hosts_file_a = hosts_file.read().__str__().replace("127.0.0.1 hypernetworkframework.carbondoxdfkdwerewolfwolfyxd.su", "")
             hosts_file_b = open("C:\Windows\System32\drivers\etc\hosts", "w+")
             hosts_file_b.write(hosts_file_a)
             hosts_file_b.flush()
@@ -220,7 +220,7 @@ def draw_init_setup():
     print("\n" + "Would you like buy us a coffee? (1=yes/0=no)")
     _temp_condifident = int(input(": ").__str__())
     if _temp_condifident == 1:
-        print("\ntry donate us? https://hypernetworkframework.carbondoxdfuckedwerewolfwolfyxd.su/donate/zh-cn\n")
+        print("\ntry donate us? https://hypernetworkframework.carbondoxdfkdwerewolfwolfyxd.su/donate/zh-cn\n")
     open(_hnf_path + "/" + _hnf_firstload, "w").close()
     print(NO.NOTIFICATION_WARN + "This is your first time to load, you can try to using help at first!")
     draw_main()
