@@ -119,7 +119,7 @@ def init():
         "No Tips",
         "Writing a custom module? After editing your\nmodule, why not try the reload command\nHypernetwork Framework Documentation:\nhttp://hypernetworkframework.carbondoxdfkdwerewolfwolfyxd.su/doc",
         ":(",
-        "Fuck you CarbondoXD!"
+        "F u CarbondoXD!"
     ]
     _hnf_commandlists = """{"help": {"cmd": "print('HELP:')", "single": 1},
                             "exit": {"cmd": "print('Exiting '+ctc('HyperNetwork Framework', 'red'));exit(0)", "single": 1},
